@@ -1,0 +1,38 @@
+.coin{
+    display: flex;
+    align-items: center;
+img {
+    height: 50px;
+    
+}
+&-data {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    p {
+        padding: 1rem;
+    }
+    
+}
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 4rem;
+    }
+    &-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    &-search {
+        text-align: center;
+        h1 {
+            padding-bottom: 2rem;
+        }
+    }
+    &-input {
+        width: 50%;
+    }
+}
