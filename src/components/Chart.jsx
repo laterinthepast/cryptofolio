@@ -1,11 +1,23 @@
 import React from 'react'
-import image from '../styles/images/1.JPG'
+import TradingViewWidget, { Themes } from 'react-tradingview-widget';
 
 const Chart = () => {
+
+
+
     return (
         <div className="chart-wrapper">
-            {/* <img src={image}></img> */}
+            
+            
+            <TradingViewWidget
+                symbol="BINANCE:BTCPERP"
+                theme={Themes.LIGHT}
+                locale="eng"
+                autosize
+            />
+
         </div>
+
     )
 }
 

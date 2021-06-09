@@ -1,6 +1,11 @@
 import React from 'react';
 
 
+
+const coinList = [];
+
+
+
 const Coin = ({
   name,
   price,
@@ -10,6 +15,15 @@ const Coin = ({
   image,
   priceChange
 }) => {
+
+ function handleAdd(e){
+  const clickedCoin = e.target.parentElement
+  coinList.push(clickedCoin)
+  console.log(clickedCoin)
+  console.log(coinList)
+  return clickedCoin;
+ }
+
   return (
     <div className='coin-container'>
       <div className='coin-row'>
@@ -32,10 +46,12 @@ const Coin = ({
           </p>
         </div>
       </div>
-      <button>add to your cryptofolio</button>
+      <button type="button" onClick={handleAdd}>add to your cryptofolio</button>
     </div>
     
   );
 };
 
 export default Coin;
+export {coinList}
+export function handleAdd() {}

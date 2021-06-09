@@ -1,10 +1,16 @@
 import React from 'react'
-import image from '../styles/images/1.JPG'
+import handleAdd, { coinList, clickedCoin } from '../components/Coin'
+
+
 
 const Wallet = () => {
+
+    
+        
+
     return (
         <div className="chart-wrapper">
-            {/* <img src={image}></img> */}
+            <p>{handleAdd}</p>
         </div>
     )
 }

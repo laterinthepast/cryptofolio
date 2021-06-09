@@ -414,27 +414,15 @@
 }
 
 .dashboard-container-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.dashboard-row-one {
   height: 90vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(500px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
 .chart-wrapper {
   background-color: yellowgreen;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 90vh;
 }
 
 .coin {
@@ -462,6 +450,14 @@
 
 .coin-data p {
   padding: 1rem;
+}
+
+.coin-data .red {
+  color: red;
+}
+
+.coin-data .green {
+  color: green;
 }
 
 .coin-container {
