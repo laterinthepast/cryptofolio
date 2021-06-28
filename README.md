@@ -25,7 +25,7 @@ coingecko website -> axios
 
 - Login/Register page
 
-passwordless login and data storage (where ?)
+passwordless login and data storage (where ? how to do it ?)
 
 - Dashboard with wallet, chart (probably from tradingview), list of all available coins (from coingecko) with option to add it to the wallet 
 
