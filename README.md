@@ -31,4 +31,4 @@ passwordless login and data storage (where ? how to do it ?)
 
 build it for desktop and mobile in future
 
-Timescale - 1 month starting 29th of June
+Timescale - 1 month starting 29th of July
