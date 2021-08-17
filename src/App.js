@@ -1,10 +1,12 @@
-/* import Login from './components/Login';
-import Main from './pages/Main'; */
-import Dashboard from './pages/Dashboard';
+/*  import Login from './components/Login'; */ 
+/* import Main from './pages/Main'; */
+import Dashboard from './pages/Dashboard'; 
+import Searchbox from './Searchbox'; 
 
 function App() {
   return (
-     <Dashboard />
+     <Searchbox />
+
   );
 }
 
